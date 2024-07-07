@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ürün bilgileri</title>
+    <link rel="stylesheet" href="/css/global.css" type="text/css">
+</head>
+<body>
+	<h1>Ürün Bilgileri</h1>
+	<table>
+		<tr>
+			<th>Ürün adı:</th>
+			<td><%= product.name %></td>
+		</tr>
+        <tr>
+			<th>Stok adedi:</th>
+			<td><%= product.stock %></td>
+		</tr>
+		<tr>
+			<th>Ücret:</th>
+			<td><%= product.price %></td>
+		</tr>
+		<tr>
+			<button class="satin-al-btn">Sepete ekle</button>
+		</tr>
+	</table>
+</body>
+</html>
